@@ -23,3 +23,4 @@ INLISLite versi 3 dibangun dalam dua pilihan platform bahasa pemrograman yaitu:
 DotNet Framework, yang dapat diinstalasi pada komputer bersistem operasi Windows.
 PHP (opensource), yang dapat diinstalasi pada komputer bersistem operasi Windows dan Linux.
 
+# kp_perpustakaan
