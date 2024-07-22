@@ -1,0 +1,285 @@
+2024-07-18 09:08:17 [::1][-][bo098rm8iiumc6r7m59eilusf2][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\CollectionSearchKardeks::ThnTerbitDeposit' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('ThnTerbitDeposi...')
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\validators\Validator.php(240): yii\db\BaseActiveRecord->__get('ThnTerbitDeposi...')
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\CollectionSearchKardeks), Array)
+#3 C:\xampp\htdocs\inlislite3\common\models\CollectionSearchKardeks.php(187): yii\base\Model->validate()
+#4 C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php(759): common\models\CollectionSearchKardeks->search2(Array)
+#5 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#6 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#10 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#12 {main}
+2024-07-18 09:08:16 [::1][-][bo098rm8iiumc6r7m59eilusf2][info][application] $_GET = [
+    'id' => '558'
+]
+
+$_COOKIE = [
+    'mailpoet_subscriber' => '{\"subscriber_id\":1}'
+    'mailpoet_page_view' => '{\"timestamp\":1686724796}'
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => '82p3cpsl5eml00lv6bu58udne7'
+    '_csrf' => '4413d32772d9136f557e22cbea0e71097195e41b605214c376c48ec88f6b87c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lXftYveKnz4Of-fHyBUDfPwjDTzkACop\";}'
+    'keanggotaanSession' => 'bo098rm8iiumc6r7m59eilusf2'
+    '_OpacInlislite' => '0be0015065e1927c6825e1357079758cdf02aa27161071439804f00fb07b328ba:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"q2xbyd0L76_Vi13nq7-Negx7lRRDWjCQ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Microsoft Edge\";v=\"126\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en;q=0.9,en-GB;q=0.8,en-US;q=0.7'
+    'HTTP_COOKIE' => 'mailpoet_subscriber=%7B%22subscriber_id%22%3A1%7D; mailpoet_page_view=%7B%22timestamp%22%3A1686724796%7D; _identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=82p3cpsl5eml00lv6bu58udne7; _csrf=4413d32772d9136f557e22cbea0e71097195e41b605214c376c48ec88f6b87c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lXftYveKnz4Of-fHyBUDfPwjDTzkACop%22%3B%7D; keanggotaanSession=bo098rm8iiumc6r7m59eilusf2; _OpacInlislite=0be0015065e1927c6825e1357079758cdf02aa27161071439804f00fb07b328ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22q2xbyd0L76_Vi13nq7-Negx7lRRDWjCQ%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\MinGW\\bin;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\composer;C:\\Users\\panjo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\panjo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\panjo\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\panjo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '50373'
+    'REDIRECT_QUERY_STRING' => 'id=558'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=558'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=558'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?id=558'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1721268496.191
+    'REQUEST_TIME' => 1721268496
+]
+2024-07-18 09:08:23 [::1][-][bo098rm8iiumc6r7m59eilusf2][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\CollectionSearchKardeks::ThnTerbitDeposit' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('ThnTerbitDeposi...')
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\validators\Validator.php(240): yii\db\BaseActiveRecord->__get('ThnTerbitDeposi...')
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\CollectionSearchKardeks), Array)
+#3 C:\xampp\htdocs\inlislite3\common\models\CollectionSearchKardeks.php(187): yii\base\Model->validate()
+#4 C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php(759): common\models\CollectionSearchKardeks->search2(Array)
+#5 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#6 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#10 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#12 {main}
+2024-07-18 09:08:22 [::1][-][bo098rm8iiumc6r7m59eilusf2][info][application] $_GET = [
+    'id' => '558'
+]
+
+$_COOKIE = [
+    'mailpoet_subscriber' => '{\"subscriber_id\":1}'
+    'mailpoet_page_view' => '{\"timestamp\":1686724796}'
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => '82p3cpsl5eml00lv6bu58udne7'
+    '_csrf' => '4413d32772d9136f557e22cbea0e71097195e41b605214c376c48ec88f6b87c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lXftYveKnz4Of-fHyBUDfPwjDTzkACop\";}'
+    'keanggotaanSession' => 'bo098rm8iiumc6r7m59eilusf2'
+    '_OpacInlislite' => '0be0015065e1927c6825e1357079758cdf02aa27161071439804f00fb07b328ba:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"q2xbyd0L76_Vi13nq7-Negx7lRRDWjCQ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Microsoft Edge\";v=\"126\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en;q=0.9,en-GB;q=0.8,en-US;q=0.7'
+    'HTTP_COOKIE' => 'mailpoet_subscriber=%7B%22subscriber_id%22%3A1%7D; mailpoet_page_view=%7B%22timestamp%22%3A1686724796%7D; _identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=82p3cpsl5eml00lv6bu58udne7; _csrf=4413d32772d9136f557e22cbea0e71097195e41b605214c376c48ec88f6b87c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lXftYveKnz4Of-fHyBUDfPwjDTzkACop%22%3B%7D; keanggotaanSession=bo098rm8iiumc6r7m59eilusf2; _OpacInlislite=0be0015065e1927c6825e1357079758cdf02aa27161071439804f00fb07b328ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22q2xbyd0L76_Vi13nq7-Negx7lRRDWjCQ%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\MinGW\\bin;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\composer;C:\\Users\\panjo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\panjo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\panjo\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\panjo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '50385'
+    'REDIRECT_QUERY_STRING' => 'id=558'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=558'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=558'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?id=558'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1721268502.882
+    'REQUEST_TIME' => 1721268502
+]
+2024-07-18 09:09:10 [::1][-][bo098rm8iiumc6r7m59eilusf2][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\CollectionSearchKardeks::ThnTerbitDeposit' in C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('ThnTerbitDeposi...')
+#1 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\validators\Validator.php(240): yii\db\BaseActiveRecord->__get('ThnTerbitDeposi...')
+#2 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(common\models\CollectionSearchKardeks), Array)
+#3 C:\xampp\htdocs\inlislite3\common\models\CollectionSearchKardeks.php(187): yii\base\Model->validate()
+#4 C:\xampp\htdocs\inlislite3\opac\controllers\DetailOpacController.php(759): common\models\CollectionSearchKardeks->search2(Array)
+#5 [internal function]: opac\controllers\DetailOpacController->actionIndex()
+#6 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('detail-opac', Array)
+#10 C:\xampp\htdocs\inlislite3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\inlislite3\opac\index.php(26): yii\base\Application->run()
+#12 {main}
+2024-07-18 09:09:10 [::1][-][bo098rm8iiumc6r7m59eilusf2][info][application] $_GET = [
+    'id' => '500'
+]
+
+$_COOKIE = [
+    'mailpoet_subscriber' => '{\"subscriber_id\":1}'
+    'mailpoet_page_view' => '{\"timestamp\":1686724796}'
+    '_identity' => 'af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a:2:{i:0;s:9:\"_identity\";i:1;s:17:\"[33,null,2592000]\";}'
+    'PHPSESSID' => '82p3cpsl5eml00lv6bu58udne7'
+    '_csrf' => '4413d32772d9136f557e22cbea0e71097195e41b605214c376c48ec88f6b87c5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"lXftYveKnz4Of-fHyBUDfPwjDTzkACop\";}'
+    'keanggotaanSession' => 'bo098rm8iiumc6r7m59eilusf2'
+    '_OpacInlislite' => '0be0015065e1927c6825e1357079758cdf02aa27161071439804f00fb07b328ba:2:{i:0;s:14:\"_OpacInlislite\";i:1;s:32:\"q2xbyd0L76_Vi13nq7-Negx7lRRDWjCQ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/inlislite3/opac/'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8123'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Microsoft Edge\";v=\"126\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:8123/inlislite3/opac/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en;q=0.9,en-GB;q=0.8,en-US;q=0.7'
+    'HTTP_COOKIE' => 'mailpoet_subscriber=%7B%22subscriber_id%22%3A1%7D; mailpoet_page_view=%7B%22timestamp%22%3A1686724796%7D; _identity=af3e2a0e951dec577795a0c5ffd91cd682a11d709a13aa959f261807f7b4af33a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A17%3A%22%5B33%2Cnull%2C2592000%5D%22%3B%7D; PHPSESSID=82p3cpsl5eml00lv6bu58udne7; _csrf=4413d32772d9136f557e22cbea0e71097195e41b605214c376c48ec88f6b87c5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22lXftYveKnz4Of-fHyBUDfPwjDTzkACop%22%3B%7D; keanggotaanSession=bo098rm8iiumc6r7m59eilusf2; _OpacInlislite=0be0015065e1927c6825e1357079758cdf02aa27161071439804f00fb07b328ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_OpacInlislite%22%3Bi%3A1%3Bs%3A32%3A%22q2xbyd0L76_Vi13nq7-Negx7lRRDWjCQ%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\MinGW\\bin;C:\\xampp\\php;C:\\Program Files\\Git\\cmd;C:\\composer;C:\\Users\\panjo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\panjo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\panjo\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\panjo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19 Server at localhost Port 8123</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8123'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/inlislite3/opac/index.php'
+    'REMOTE_PORT' => '50404'
+    'REDIRECT_QUERY_STRING' => 'id=500'
+    'REDIRECT_URL' => 'http://localhost:8123/inlislite3/opac/detail-opac?id=500'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=500'
+    'REQUEST_URI' => '/inlislite3/opac/detail-opac?id=500'
+    'SCRIPT_NAME' => '/inlislite3/opac/index.php'
+    'PHP_SELF' => '/inlislite3/opac/index.php'
+    'REQUEST_TIME_FLOAT' => 1721268550.062
+    'REQUEST_TIME' => 1721268550
+]
